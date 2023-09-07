@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+/* -----------------   LOG IN      -------------------- */
+
+.gradient-form{
+    min-height: 900px;
+}
+
+.gradient-custom-2 {
+    background: #A8001F;
+}
+    
+@media  (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+}
+
+a.login-btn, a.register-btn{
+    display: block;
+    border: 1px solid #A8001F;
+    background-color: #A8001F;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login-btn:hover{
+    border: 1px solid #A8001F;
+    background-color: white;
+    color: #A8001F;
+}
+
+.login-bg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+
+a.create-btn, a.lg-btn{
+    padding: 8px 28px;
+    background-color: white;
+    color: #A8001F !important;
+    border: 1px solid #A8001F;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: normal !important;
+}
+
+
+a.create-btn:hover, a.lg-btn:hover{
+    background-color: #A8001F;
+    color: white !important;
+    font-weight: normal !important;
+}
+
+
+
+/* ---------------------       SIGN UP     ---------------------------- */
+
+
+.register-btn{
+    border: 1px solid #A8001F;
+    background: #A8001F !important;
+    width: 100%;
+    color: white !important;
+}
+
+.register-btn:hover{
+    border: 1px solid #A8001F;
+    background: white !important;
+    color: #A8001F !important;
+}
+
+#singUp{
+   /* background: linear-gradient(rgba(0,0,0, 0.2), #A8001F), url(../../images/signUp-bg.webp); */
+   background-image: url(../../images/signUp-bg.webp);
+   background-repeat: no-repeat;
+   /* background-position: center; */
+   background-size: cover;
+}
+
+
+
+
+
+/* --------------------------      UTILITIES   ------------------------- */
+
+a.view-more{
+    /* margin-left: 76%; */
+    float: right;
+    padding: 0.5em 1em;
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 1.25em;
+    background-color: #d8d8d8;
+    border: 1.5px solid #d8d8d8;
+    text-decoration: none;
+}
+
+a.view-more i{
+    /* margin-left: 1.5em; */
+    background-color: #a8001f;
+    padding: 0.25em;
+    margin-left: 10px;
+    color: #f9f9f9;
+    border-radius: 50%;
+}
+
+.card-body .row i {
+    color: #a8001f;
+}

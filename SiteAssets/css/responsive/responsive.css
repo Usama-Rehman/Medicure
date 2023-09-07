@@ -1,0 +1,10 @@
+@media (max-width:600px) {
+
+    /* =================   SIGN UP FORM ============ */
+
+    #signUP-loginBtn{
+        display: block;
+        margin-top: 10px;
+    }
+    
+}
